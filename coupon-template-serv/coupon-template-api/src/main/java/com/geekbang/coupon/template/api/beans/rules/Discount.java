@@ -1,9 +1,16 @@
 package com.geekbang.coupon.template.api.beans.rules;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 /**
  * @author luzhonghe
  * @date 2022/7/6 9:44 AM
  */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Discount {
 
     /**
